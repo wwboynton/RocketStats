@@ -495,7 +495,7 @@ void RocketStats::initRank()
 	currentRank = "norank";
 	lastRank = "norank";
 
-	std::string _value = "<meta http-equiv = \"refresh\" content = \"5\" /><img src = \"current.png\" width = \"100\" height = \"100\" />";
+	std::string _value = "<meta http-equiv = \"refresh\" content = \"5\" /><img src = \"current.png\" width = \"1381\" height = \"1381\" />";
 
 	WriteInFile("RocketStats_images/rank.html", _value);
 }
@@ -522,7 +522,7 @@ void RocketStats::majRank(int _gameMode, float _currentMMR, SkillRank playerRank
 
 		if (currentRank != lastRank)
 		{
-			std::string _value = "<meta http-equiv = \"refresh\" content = \"5\" /><img src = \"" + currentRank + ".png" + "\" width = \"100\" height = \"100\" />";
+			std::string _value = "<meta http-equiv = \"refresh\" content = \"5\" /><img src = \"" + currentRank + ".png" + "\" width = \"1381\" height = \"1381\" />";
 
 			WriteInFile("RocketStats_images/rank.html", _value);
 			WriteInFile("RocketStats_Rank.txt", currentRank);
@@ -533,7 +533,7 @@ void RocketStats::majRank(int _gameMode, float _currentMMR, SkillRank playerRank
 		currentRank = "norank";
 		currentDivision = " nodiv";
 
-		std::string _value = "<meta http-equiv = \"refresh\" content = \"5\" /><img src = \"current.png\" width = \"100\" height = \"100\" />";
+		std::string _value = "<meta http-equiv = \"refresh\" content = \"5\" /><img src = \"current.png\" width = \"1381\" height = \"1381\" />";
 
 		WriteInFile("RocketStats_images/rank.html", _value);
 		WriteInFile("RocketStats_Rank.txt", currentRank);

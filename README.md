@@ -27,7 +27,9 @@ File used are:
 ### OBS Overlay
 ![OBS Overlay](https://media.discordapp.net/attachments/593431328209371170/593803857448927232/tweet1.png)
 
-This is an example of the OBS Overlay, you can display same information on your stream, and style it your way, using custom video and font
+This is an example of the OBS Overlay, you can display same information on your stream, and style it your way, using custom video and font. 
+
+NOTE: The rank images have been changed to higher-resolution ones, with dimensions of 1381x1381. Adjust your overlay accordingly, or images may be cut off.
 
 #### Installation
 You can find the example background video by [Rimey](https://twitter.com/Rimey_) here : [Download link](https://drive.google.com/file/d/15ye_Iq-1lK_dkQKQvk_Ia5EwbTNEiViG/view?usp=sharing)
