@@ -510,7 +510,7 @@ void RocketStats::majRank(int _gameMode, float _currentMMR, SkillRank playerRank
 	{
 		if (playerRank.MatchesPlayed < 10 && playerRank.Tier == 0) {
 			currentDivision = " Division " + std::to_string(playerRank.Division + 1);
-			currentRank = "Placement: ";
+			currentRank = "Unranked";
 			currentDivision = std::to_string(playerRank.MatchesPlayed) + "/10";
 		}
 		else {
